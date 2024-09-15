@@ -29,13 +29,13 @@ class Home_Screen extends StatelessWidget {
               shrinkWrap: true,
               children: [
 
-                Menu_Card('Computer', Icons.computer, context, '/board'),
+                Menu_Card(label: 'Computer', icon: Icons.computer, context: context, route: '/game_time'),
 
-                Menu_Card('Player', Icons.person, context, '/board'),
+                Menu_Card(label: 'Player', icon: Icons.person, context: context, route: '/board'),
 
-                Menu_Card('Settings', Icons.settings, context, '/board'),
+                Menu_Card(label:'Settings', icon: Icons.settings, context: context, route: '/board'),
 
-                Menu_Card('Info', Icons.book, context, '/board'),
+                Menu_Card(label:'Info', icon: Icons.book, context: context, route: '/rules'),
 
               ],
             )

@@ -1,4 +1,5 @@
 import 'package:chess/presentation/screens/Game_Screen.dart';
+import 'package:chess/presentation/screens/Game_Time.dart';
 import 'package:flutter/material.dart';
 
 import '../presentation/screens/Home_Screen.dart';
@@ -18,6 +19,8 @@ class Routes {
         return MaterialPageRoute(builder: (_) => Game_Screen());
       case '/rules':
         return MaterialPageRoute(builder: (_) => Rule_Page());
+      case '/game_time':
+        return MaterialPageRoute(builder: (_) => Game_Time());
       default:
         return null;
     }
