@@ -44,7 +44,7 @@ class Text_Const {
     ]
   };
 
-  final List<String> moves = [
+  final List<String> move_gif = [
     'assets/piece_movement/king.gif',
     'assets/piece_movement/queen.gif',
     'assets/piece_movement/rook.gif',

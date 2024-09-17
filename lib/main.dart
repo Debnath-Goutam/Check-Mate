@@ -1,16 +1,18 @@
 import 'package:chess/presentation/customs/Custom_Theme.dart';
 import 'package:chess/presentation/screens/Home_Screen.dart';
+import 'package:chess/providers/Game_Provider.dart';
 import 'package:chess/route/Routes.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:provider/provider.dart';
 
-void main(){
+void main() {
 
-  //WidgetsFlutterBinding.ensureInitialized();
-  //await Firebase.initializeApp();
+  runApp(MultiProvider(
 
+    providers: [ChangeNotifierProvider(create: (_) => Game_Provider())],
+    child: MyApp(),
 
-  runApp(MyApp());
+  ));
 
 }
 

@@ -15,7 +15,7 @@ class Game_Time extends StatelessWidget {
       'Rapid 15+10',
       'Blitz 5+3',
       'Blitz 3+2',
-      'Bullet 2+1'
+      'Untimed '
 
     ];
 
@@ -31,7 +31,7 @@ class Game_Time extends StatelessWidget {
               label: gameTime[index].split(' ')[0],
               context: context,
               timing: gameTime[index].split(' ')[1],
-              route: '/board');
+              route: '/game_setup');
         },
       ),
 

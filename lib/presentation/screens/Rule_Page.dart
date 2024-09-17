@@ -79,7 +79,7 @@ class Rule_Page extends StatelessWidget {
                           ),
                           const SizedBox(height: 10,),
 
-                          Image.asset(textConst.moves[index++]),
+                          Image.asset(textConst.move_gif[index++]),
 
                           const SizedBox(height: 10,)
 
