@@ -54,3 +54,14 @@ class Text_Const {
   ];
 
 }
+
+enum Player_Colour {
+  White,
+  Black
+}
+
+enum Game_Difficulty {
+  Easy,
+  Medium,
+  Hard
+}
